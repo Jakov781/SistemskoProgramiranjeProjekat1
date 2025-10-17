@@ -20,11 +20,11 @@ namespace SistemskoProgramiranjeProjekat1
 {
     internal class Program
     {
-        // Keš za rezultate (naziv fajla -> odgovor)
+
         private static ConcurrentDictionary<string, string> cache = new ConcurrentDictionary<string, string>();
         private static object cacheLock = new object();
 
-        // Root folder za pretragu
+
         private static string rootPath = AppDomain.CurrentDomain.BaseDirectory;
 
         static void Main(string[] args)
